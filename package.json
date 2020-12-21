@@ -1,0 +1,35 @@
+{
+  "name": "cat-claims",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "parcel index.html --port 1111",
+    "build": "parcel watch index.html --port 1111",
+    "deploy": "parcel build index.html",
+    "host": "http-server ./",
+    "postcss": "postcss src/style/*.pcss -o dist/styles.css --config postcss.config.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.6.0",
+    "eslint-config-defaults": "^9.0.0",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "parcel": "^1.12.4",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^6.1.3",
+    "postcss-mixins": "^6.2.1",
+    "postcss-modules": "^1.4.1",
+    "postcss-nested": "^4.1.2",
+    "postcss-normalize": "^8.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "stylelint": "^10.1.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
