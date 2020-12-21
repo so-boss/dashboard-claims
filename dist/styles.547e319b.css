@@ -9,7 +9,7 @@ body{
     background-attachment: fixed;
 }
 h1 {
-    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: white;
@@ -26,7 +26,7 @@ h1 > a:hover {
       }
 
 h2 {
-    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
     font-size: 14px;
     font-weight: 600;
     margin: 0px;
@@ -76,7 +76,7 @@ p {
 }
 
 #title {
-    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
     font-size: 32px;
     color: white;
     font-weight: 500;
@@ -131,7 +131,7 @@ p {
 }
 
 #cat-select > #selection {
-      font-family: 'Proxima Nova';
+      font-family: proxima-nova, sans-serif;
       font-size: 18px;
       font-weight: 600;
       color: white;
@@ -150,7 +150,7 @@ p {
 #files > #files-button {
     display: flex;
     background-color: #4E585E;
-    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: #fff;
@@ -230,14 +230,14 @@ p {
 .dd-s > #selection {
     display: flex;
     width: 100%;
-    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
     font-size: 14px;
     font-weight: 600;
     color: white;
   }
 
 .stats {
-  font-family: 'Proxima Nova';
+  font-family: proxima-nova, sans-serif;
   font-weight: 600;
   color: white;
   margin: 8px;
@@ -316,7 +316,7 @@ p {
 }
 
 #ale-status > p {
-  font-family: 'Proxima Nova';
+  font-family: proxima-nova, sans-serif;
   color: white;
   font-size: 14px;
   }
@@ -489,7 +489,7 @@ p {
       top: 32px;
     }
 #calendar-display > div > #datemonth > div {
-        font-family: 'Proxima Nova';
+        font-family: proxima-nova, sans-serif;
         font-size: 32px;
         color: white;
         font-weight: 200;
@@ -510,11 +510,10 @@ p {
         width: 100%;
         height: 20px;
         border: 1px solid red;
-        z-index: 1;
       }
 #calendar-display > div > #days > .calendar-row > .day-num {
           width: 20px;
-          font-family: 'Proxima Nova';
+          font-family: proxima-nova, sans-serif;
           font-size: 16px;
           color: white;
           font-weight: 500;
@@ -627,7 +626,7 @@ p {
       }
 
 .article-item > div > .article-copy > .article-text {
-        font-family: 'Proxima Nova';
+        font-family: proxima-nova, sans-serif;
         font-size: 14px;
         font-weight: 600;
       }
@@ -685,7 +684,7 @@ button > img {
 
 
 button > div {
-    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
     font-size: 14px;
     font-weight: 600;
   }
@@ -732,7 +731,7 @@ a > #button:empty {
     width: 60%;
     border: none;
     border-radius: 2px;
-    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
     font-size: 14px;
     text-indent: 18px;
     background-color: white;
@@ -836,21 +835,21 @@ a > #button:empty {
 .doc-text > div:first-child {
         height: 20px;
         width: 100%;
-        font-family: 'Proxima Nova';
+        font-family: proxima-nova, sans-serif;
         font-size: 14px;
         font-weight: 600;
     }
 
 .doc-text > p {
-      font-family: 'Proxima Nova';
+      font-family: proxima-nova, sans-serif;
       font-size: 12px;
       font-weight: 400;
-      color: white;
       opacity: 0.5;
+      color:white;
     }
 
 .timestamp {
-    font-family: 'Proxima Nova';
+    font-family: proxima-nova, sans-serif;
     font-size: 12px;
     font-weight: 400;
     color: white;
@@ -858,7 +857,7 @@ a > #button:empty {
 }
 
 .ui-widget {
-  font-family: 'Proxima Nova';
+  font-family: proxima-nova, sans-serif;
   font-size: 18px;
 }
 .ui-widget-content {
